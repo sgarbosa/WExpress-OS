@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Árvore de hardware e configurações do Galaxy Tab 2 7.0 Wi-Fi (GT-P3110) -->
+  <project name="LineageOS/android_device_samsung_espressowifi" path="device/samsung/espressowifi" remote="github" revision="cm-13.0" />
+  <project name="LineageOS/android_device_samsung_espresso-common" path="device/samsung/espresso-common" remote="github" revision="cm-13.0" />
+
+  <!-- Kernel Linux adaptado para o processador TI OMAP 4430 -->
+  <project name="LineageOS/android_kernel_ti_omap4" path="kernel/ti/omap4" remote="github" revision="cm-13.0" />
+
+  <!-- Drivers proprietários (blobs da GPU PowerVR SGX540, Wi-Fi e Áudio) -->
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-13.0" />
+</manifest>
